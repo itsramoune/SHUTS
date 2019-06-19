@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>home</title>
+<title>App</title>
 <link href="css/framework7.min.css" rel="stylesheet">
-<link href="css/f7-icons.css" rel="stylesheet">
 <link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -18,10 +18,10 @@
 
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main view-init">
-      
-		<section class="panel panel-left panel-cover">
+        
+		  	<section class="panel panel-left panel-cover">
 			  	<div class="block">
-				<img src="img/WhatsApp Image 2019-06-17 at 9.59.26 AM.jpeg" class="img-fluid" alt="Ricky">
+				<img src="img/sup/WhatsApp Image 2019-06-17 at 9.59.26 AM.jpeg" class="img-fluid center" alt="ricky">
 				  Ricky				  
 				</div>
 				<div class="block">
@@ -34,7 +34,7 @@
 									</div>
 									<div class="item-inner">
 										<div class="item-title-row">
-										<h5 class="item-title">Home</h5>
+										<h5 class="item-title">Inicio</h5>
 										</div>
 									</div>
 								</a>
@@ -42,7 +42,7 @@
 							
 							
 							<li>
-								<a href="/list/" class="item-content item-link panel-close">
+								<a href="/#/" class="item-content item-link panel-close">
 									<div class="item-media">
 										<i class="material-icons">favorite_border</i>
 									</div>
@@ -55,7 +55,7 @@
 							</li>
 							
 							<li>
-								<a href="/radio/" class="item-content item-link panel-close">
+								<a href="/artist/" class="item-content item-link panel-close">
 									<div class="item-media">
 										<i class="material-icons">face</i>
 									</div>
@@ -81,7 +81,7 @@
 							</li>
 							
 							<li>
-								<a href="/radio/" class="item-content item-link panel-close">
+								<a href="/#/" class="item-content item-link panel-close">
 									<div class="item-media">
 										<i class="material-icons">search</i>
 									</div>
@@ -94,13 +94,13 @@
 							</li>
 							
 							<li>
-								<a href="/radio/" class="item-content item-link panel-close">
+								<a href="/profile/" class="item-content item-link panel-close">
 									<div class="item-media">
 										<i class="material-icons">perm_identity</i>
 									</div>
 									<div class="item-inner">
 										<div class="item-title-row">
-										<h5 class="item-title">Profile</h5>
+                                            <h5 class="item-title">Profile</h5>										
 										</div>
 									</div>
 								</a>
@@ -114,213 +114,184 @@
 					</div>					
 				</div>
 			</section>
+        
 		  
-        <section data-name="home" class="page">
+		 <section data-name="home" class="page">
 
           <!-- Top Navbar -->
           <nav class="navbar">
             <div class="navbar-inner">
-              <div class="title">
-				
-				  <h1>Home</h1>
-				  
-				  
-				 </div>
-			<div class="right">
-			<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
-				
-			
-			</div>
+              	<div class="title">HOME</div>
+				<div class="right">
+					<a href="#" class="link panel-open" data-panel="left">
+						<i class="material-icons">menu</i>
+					</a>  
+				</div>
             </div>
           </nav>
 
-  
           <!-- Scrollable page content -->
           <div class="page-content">
-			  
-          <article>
-		<div class="swiper-container swiper-init" data-speed="400" data-space-between="40" data-slides-per-view="1" data-pagination='{"el": ".swiper-pagination"}'>
-   
-			<!-- Slides wrapper -->
+            
+			 	
+			<div class="swiper-container swiper-init" data-speed="400" data-space-between="40" data-slides-per-view="1" data-pagination='{"el": ".swiper-pagination"}'>
+    <!-- Slides wrapper -->
 		<div class="swiper-wrapper">
-			
 			<!-- Slides -->
 			<div class="swiper-slide"> 
-				<article>
-				<img src="img/cover 1.png" class="img-fluid" alt="home-1">
-				</article>
+				<img src="img/sup/cover 1.png" class="img-fluid" alt="ezra"> 
 			</div>
 			
-			<div class="swiper-slide"> 
-				<article>
-				<img src="img/wc.png" class="img-fluid" alt="home-2">
-				</article>
-			
-			</div>
-			
-			
+			<div class="swiper-slide">
+				<img src="img/sup/wc.png" class="img-fluid" alt="fuk">
 			</div>
 			
 			
 		</div>
 		<!-- Pagination, if required -->
 		<div class="swiper-pagination"></div>
-		
-		</article>
-			  
+	</div>
+			 <div class="row">
 			 
-			  
-			  
-		<div class="block titulo">
-            
-		
-			<h4>Trending Artist</h4>
+				<h2 class="blue">Trending Artists</h2>
+			   <h2 class="gray">See All</h2>
+				 
+				 
+			 </div> 
 			
+			  
+		
+			  
 			<div class="row">
-			
 			<article class="col">
-				<div class="card">
-				<div class="card-content">
+			<div class="card">
 				
-				<a href="#">
-				<img src="img/artist 4.png" class="img-fluid trending" alt="bjork"></a>
-					
-				<p>Bjork</p>
-					
-				</div>
-				</div>
-			</article>
 			
-			<article class="col">
-				<div class="card">
 				<div class="card-content">
+					<a href="/artist/"><img src="img/sup/artist 1.png" class="img-fluid pad" alt="img" width="100px" ></a>
+					<h3 class="artist name">Daft Punk</h3>
+				</div>
 				
-				<a href="#">
-				<img src="img/artist 1.png" class="img-fluid trending" alt="df"></a>
-					
-				<p>Daft Punk</p>
-					
-				</div>
-				</div>
-			</article>
-			
-			
-			<article class="col">
-				<div class="card">
-				<div class="card-content">
-				
-				<a href="#">
-				<img src="img/artist 2.png" class="img-fluid trending" alt="Zoe"></a>
-					
-				<p>Zoe</p>
-					
-				</div>
-				</div>
-			</article>
-			
-			<article class="col">
-				<div class="card">
-				<div class="card-content">
-				
-				<a href="#">
-				<img src="img/jonas.png" class="img-fluid trending" alt="ladygaga"></a>
-					
-				<p>Lady Gaga</p>
-					
-				</div>
-				</div>
-			</article>
-			
 			</div>
-		
-		</div>  
-			  
-		
-			  
-				<div class="block">
-		
-			<h4>Top Playlist</h4>
-			
-			<div class="row">
-			
-			<article class="col">
-				<div class="card">
-				<div class="card-content">
-				
-				<a href="#">
-				<img src="img/playlist1.png" class="img-fluid" alt="mexi"></a>
-					
-				<h3>Corabelle</h3>
-				<p>MexiCali</p>
-					
-				</div>
-				</div>
-			</article>
-			
-			<article class="col">
-				<div class="card">
-				<div class="card-content">
-				
-				<a href="#">
-				<img src="img/playlist2.png" class="img-fluid" alt="milk"></a>
-					
-				<h3>Coffee and TV</h3>
-				<p>blur</p>
-					
-				</div>
-				</div>
 			</article>
 			
 			
 			<article class="col">
-				<div class="card">
-				<div class="card-content">
+			<div class="card">
 				
-					<a href="#">
-				<img src="img/playlist6.png" class="img-fluid" alt="milk"></a>
-					
-				<h3>My Hero</h3>
-				<p>Foo Fighters</p>
-					
-				</div>
-				</div>
-			</article>
 			
-			<article class="col">
-				<div class="card">
 				<div class="card-content">
-				
-				<a href="#">
-				<img src="img/playlist4.png" class="img-fluid" alt="cherry"></a>
-					
-				<h3>Cherry Bomb</h3>
-				<p>NCT 127</p>
-					
+					<a href="/#/"><img src="img/sup/artist 2.png" class="img-fluid pad" alt="img" width="100px"></a>
+					<h3 class="artist name">Zoé</h3>
 				</div>
-				</div>
-			</article>
 			
+				
 			</div>
+			</article>
+						
 		
-		</div>
-			  
-		</div>
+			<article class="col">
+			<div class="card">
+				
 			
-		 </section>
-     </div>
-     </div>
+				<div class="card-content">
+					<a href="/#/"><img src="img/sup/artist 3.png" class="img-fluid pad" alt="img" width="100px"></a>
+					<h3 class="artist name">Lady Gaga</h3>
+				</div>
+			
+				
+			</div>
+			</article>
+						
+						
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/sup/artist 4.png" class="img-fluid pad" alt="img" width="100px"></a>
+					<h3 class="artist name">Bjork</h3>
+				</div>
+			
+				
+			</div>
+			</article>
+			
+		</div>
+		
+					<h2 class="blue">Top Song</h2>
+		
+				<div class="row">
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/radio/"><img src="img/sup/song 1.png" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">Luna</h3>
+					<h5 class="name2">Zoé</h5>
+				</div>
+				
+			</div>
+			</article>
+			
+			
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/sup/song 2.png" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">Funky Fiesta</h3>
+					<h5 class="name2">Rawayana</h5>
+				</div>
+			
+				
+			</div>
+			</article>
+						
+		
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/sup/song 3.png" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">7 Nation Aarmy</h3>
+					<h5 class="name2">Go to hell</h5>
+				</div>
+			
+				
+			</div>
+			</article>
+						
+						
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/sup/song 4.png" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">Dance</h3>
+					<h5 class="name2">Bus Talk</h5>
+				</div>
+			
+				
+			</div>
+			</article>
+			
+		</div>
+			    <!-- before here -->
+			  </div>
+			
+        </section>
+		  
+      </div>
+    </div>
 	
 
 	
-	
-	
-	
-	
-	
-		
-
 	<script src="js/framework7.min.js"></script>
 	<script src="js/my-app.js"></script>
-	
 </body>
 </html>
